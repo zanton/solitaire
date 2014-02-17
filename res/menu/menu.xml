@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/menu_newgame" android:id="@+id/menu_newgame"></item>
+<item android:title="@string/title_level" android:titleCondensed="@string/menu_level" android:id="@+id/menu_level"><menu>
+
+<group android:id="@+id/group01" android:checkableBehavior="single"><item android:id="@+id/one" android:title=" 1 suit" android:checkable="true"></item><item android:id="@+id/two" android:checkable="true" android:title=" 2 suits"></item><item android:id="@+id/three" android:checkable="true" android:title=" 3 suits"></item>
+<item android:id="@+id/four" android:checkable="true" android:title=" 4 suits"></item>
+
+
+</group>
+</menu>
+</item><item android:title="@string/menu_score" android:id="@+id/menu_score"></item><item android:title="@string/menu_help" android:id="@+id/menu_help"></item>
+<item android:title="@string/menu_about" android:id="@+id/menu_about"></item>
+
+
+
+
+
+<item android:title="@string/menu_quit" android:id="@+id/menu_quit"></item>
+<item android:title="@string/menu_quit_save" android:id="@+id/menu_quit_save"></item>
+</menu>

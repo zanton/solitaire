@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+<TextView android:text="@string/txt_about" 
+	android:layout_margin="5px" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+<TextView android:text="@string/txt_snout_name" 
+	android:layout_margin="5px" 
+	android:id="@+id/TextView02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal">
+</TextView>
+<TextView android:text="@string/txt_snout_link" 
+	android:layout_margin="5px" 
+	android:id="@+id/TextView03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal" 
+	android:textColor="#6666FF">
+</TextView>
+<Button android:text="@string/txt_ok" 
+	android:id="@+id/btnAbout" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal" 
+	android:width="100px">
+</Button>
+</LinearLayout>

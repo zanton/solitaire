@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  	android:stretchColumns="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    
+    <TableRow>
+        <TextView
+            android:text="@string/txt_rank"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:text="@string/txt_player_name"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:text="@string/txt_score"
+            android:layout_gravity="center_horizontal"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="1"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/name_1"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/score_1"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="2"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/name_2"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/score_2"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="3"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/name_3"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/score_3"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="4"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/name_4"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/score_4"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="5"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/name_5"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/score_5"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+    
+  </TableLayout>
+  
+  
+

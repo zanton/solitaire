@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+  <LinearLayout android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical">
+  
+  <TextView android:text="@string/txt_nameAsking"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_margin="5dp"/>
+  	
+  <EditText android:id="@+id/nameAsking"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:maxLength="15"
+  	android:maxLines="1"
+  	android:layout_margin="10dp"/>
+  
+  </LinearLayout>
+  	
+  <LinearLayout android:layout_width="wrap_content"
+   	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+  	android:layout_gravity="center_horizontal">
+  	
+	  <Button android:id="@+id/btn_nameAskingOk"
+	  	android:text="@string/txt_ok"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:height="50dp"
+	  	android:width="100dp"
+	  	android:layout_margin="5dp"/>
+	  <Button android:id="@+id/btn_nameAskingCancel"
+	  	android:text="@string/txt_cancel"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:height="50dp"
+	  	android:width="100dp"
+	  	android:layout_margin="5dp"/>
+	  	
+  </LinearLayout>
+  
+</LinearLayout>

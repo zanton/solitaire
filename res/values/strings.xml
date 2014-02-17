@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Samegame!</string>
+    <string name="app_name">Spider Solitaire</string>
+<string name="ready_dialog_text">Game Ready!</string>
+<string name="paused_dialog_text">Paused</string>
+<string name="ready_dialog_button_text">Start</string>
+<string name="paused_dialog_button_text">Resume</string>
+<string name="win_dialog_text">You Removed All! Congratulation!\nYour Score is </string>
+<string name="win_dialog_button_text">OK</string>
+<string name="lose_dialog_text">There is no more move!\nYour score is </string>
+<string name="lose_dialog_button_text">OK</string>
+<string name="txt_about">This Spider Solitaire game was created by</string>
+<string name="txt_help_1">This is the famous game Spider Solitaire.</string>
+<string name="title_about">About</string>
+<string name="txt_snout_link">http://www.snout.com.my\n</string>
+<string name="txt_ok">OK</string>
+<string name="txt_snout_name">Snout Corporation</string>
+<string name="title_help">Help</string>
+<string name="btn_newgame">New Game</string>
+<string name="btn_help">Help</string>
+<string name="btn_about">About</string>
+<string name="menu_newgame">New Game</string>
+<string name="menu_level">Level</string>
+<string name="title_level">Select the number of suits</string>
+<string name="menu_sound">Sound</string>
+<string name="title_sound">Sound Settings</string>
+<string name="menu_help">Help</string>
+<string name="menu_about">About</string>
+<string name="txt_help_2">Try to arrange all 8 suite of cards, you will win. You can set level by selecting Menu&gt;Level and choose the number of suits.</string>
+<string name="txt_help_3">You can choose more than one card to move by touching and move your finger up.</string>
+<string name="title_score">High Score for Level </string>
+<string name="menu_score">Score</string>
+<string name="btn_score">Score</string>
+<string name="txt_rank">Rank</string>
+<string name="txt_player_name">Player Name</string>
+<string name="txt_score">Score</string>
+<string name="txt_nameAsking">Your score is in top 5!\nEnter your name:</string>
+<string name="title_nameAsking">Congratulation!</string>
+<string name="txt_cancel">Cancel</string>
+
+<string name="title_win">You finished the game!</string>
+<string name="menu_deleteScore">Delete Score</string>
+<string name="menu_quit">Quit &amp; Unsave</string>
+<string name="menu_quit_save">Quit &amp; Save</string>
+</resources>

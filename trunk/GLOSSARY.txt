@@ -1,0 +1,2 @@
+Project technical term
+プロジェクト固有の専門用語を記述

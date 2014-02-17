@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+  <TextView 
+	android:layout_margin="5dp" 
+	android:id="@+id/Text_Win" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="left" >
+  </TextView>
+  
+  <Button android:text="@string/txt_ok" 
+	android:id="@+id/btnWin" 
+	android:layout_margin="5dp" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal" 
+	android:width="80dp">
+  </Button>
+
+</LinearLayout>
